@@ -1,0 +1,11 @@
+.idea
+*.iws
+*.iml
+node_modules
+/node_modules
+
+.cache
+.temp
+/src/.vuepress/.cache/
+/src/.vuepress/.temp/
+/src/.vuepress/.dist/
