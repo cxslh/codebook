@@ -2,8 +2,6 @@
 title: Springboot概述
 headerDepth: 4
 order: 2
-category:
-  - springboot
 ---
 
 ## 一、什么是springboot
