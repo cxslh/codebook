@@ -4,7 +4,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",{
     text: "java基础",
-    link: "/javainto/",
+    link: "/javabase/",
   },{
     text: "javaWeb",
     link: "/javaweb/",
