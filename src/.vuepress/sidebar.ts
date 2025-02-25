@@ -2,9 +2,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/javainto/":"structure",
-  "/javaweb/":"structure",
-  "/fremwork/":"structure",
+  "/java/base/":"structure",
   "/db/":"structure",
   "/other/":"structure",
 });

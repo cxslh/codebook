@@ -1,7 +1,9 @@
 ---
-title: java 基础
+title: 安装jdk
 pageInfo: false
 breadcrumb: false
 headerDepth: 4
 ---
-### java 基础
+## 安装jdk
+
+test install jdk

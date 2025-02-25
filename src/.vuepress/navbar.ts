@@ -1,24 +1,29 @@
 // @ts-ignore
-import { navbar } from "vuepress-theme-hope";
+import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
-  "/",{
-    text: "java基础",
-    link: "/javabase/",
-  },{
-    text: "javaWeb",
-    link: "/javaweb/",
-  },{
-    text: "框架",
-    link: "/fremwork/",
-  },
-  {
-    text: "数据库",
-    link: "/db/",
-  },
-  {
-    text: "编程之外",
-    icon: "info",
-    link: "/other/",
-  }
+    "/",
+    {
+        text: "java",
+        prefix: "/java/",
+        children: [
+            {
+                text: "基础",
+                link: "/java/base/README.md",
+            },
+            {
+                text: "面向对象",
+                link: "/java/base/README.md",
+            },
+        ],
+    },
+    {
+        text: "数据库",
+        link: "/db/",
+    },
+    {
+        text: "编程之外",
+        icon: "info",
+        link: "/other/",
+    }
 ]);
