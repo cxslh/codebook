@@ -8,7 +8,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "code-learning",
+  title: "程序员一博",
   description: "java编程记录",
 
   theme,

@@ -2,7 +2,11 @@
 import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
-    "/",
+    "/",{
+        text: "编程导航",
+        icon: "link",
+        link: "/nav/",
+    },
     {
         text: "java",
         prefix: "/java/",
@@ -13,7 +17,28 @@ export default navbar([
             },
             {
                 text: "面向对象",
-                link: "/java/base/README.md",
+                link: "/java/oop/README.md",
+            }, {
+                text: "-框架",
+                prefix: "fremwork/",
+                children: [
+                    {
+                        text: "spring",
+                        link: "/java/fremwork/spring/README.md",
+                    },
+                    {
+                        text: "springMvc",
+                        link: "/java/fremwork/springMvc/README.md",
+                    },
+                    {
+                        text: "mybatis",
+                        link: "/java/fremwork/mybatis/README.md",
+                    },
+                    {
+                        text: "springBoot",
+                        link: "/java/fremwork/springBoot/README.md",
+                    },
+                ],
             },
         ],
     },
@@ -22,8 +47,22 @@ export default navbar([
         link: "/db/",
     },
     {
+        text: "python",
+        link: "/python/",
+    },
+    {
+        text: "go",
+        link: "/go/",
+    },
+    {
+        text: "前端",
+        link: "/html/",
+    },{
+        text: "架构",
+        link: "/html/",
+    },
+    {
         text: "编程之外",
-        icon: "info",
         link: "/other/",
     }
 ]);
