@@ -1,5 +1,5 @@
 ---
-title: Redis三种特殊数据类型
+title: 三种特殊数据类型
 breadcrumb: false
 headerDepth: 4
 pageInfo: false

@@ -6,60 +6,62 @@ export default navbar([
         text: "编程导航",
         icon: "link",
         link: "/nav/",
-    },
-    {
-        text: "java",
-        prefix: "/java/",
+    },{
+        text: "java基础",
+        link: "/javabase/README.md",
+    },{
+        text: "java进阶",
+        link: "/javaoop/README.md",
+    },{
+        text: "javaweb",
+        link: "/javaweb/README.md",
+    },{
+        text: "框架",
+        prefix: "javaframework/",
         children: [
             {
-                text: "基础",
-                link: "/java/base/README.md",
+                text: "spring",
+                link: "/javaframework/spring/README.md",
             },
             {
-                text: "面向对象",
-                link: "/java/oop/README.md",
-            }, {
-                text: "-框架",
-                prefix: "fremwork/",
-                children: [
-                    {
-                        text: "spring",
-                        link: "/java/fremwork/spring/README.md",
-                    },
-                    {
-                        text: "springMvc",
-                        link: "/java/fremwork/springMvc/README.md",
-                    },
-                    {
-                        text: "mybatis",
-                        link: "/java/fremwork/mybatis/README.md",
-                    },
-                    {
-                        text: "springBoot",
-                        link: "/java/fremwork/springBoot/README.md",
-                    },
-                ],
+                text: "springmvc",
+                link: "/javaframework/springmvc/README.md",
+            },
+            {
+                text: "mybatis",
+                link: "/javaframework/mybatis/README.md",
+            },
+            {
+                text: "springboot",
+                link: "/javaframework/springboot/README.md",
             },
         ],
+    },{
+        text: "微服务",
+        link: "/service/",
+    },{
+        text: "分布式|中间件",
+        link: "/cluster/",
+    },{
+        text: "架构",
+        link: "/framework/",
     },
     {
         text: "数据库",
         link: "/db/",
-    },
-    {
-        text: "python",
-        link: "/python/",
-    },
-    {
-        text: "go",
-        link: "/go/",
-    },
-    {
-        text: "前端",
-        link: "/html/",
+        children: [
+            {
+                text: "Mysql",
+                link: "/db/mysql/",
+            },
+            {
+                text: "Redis",
+                link: "/db/redis/",
+            }
+        ]
     },{
-        text: "架构",
-        link: "/html/",
+        text: "工具",
+        link: "/codetool/",
     },
     {
         text: "编程之外",

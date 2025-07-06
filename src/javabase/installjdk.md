@@ -5,11 +5,11 @@ order: 1
 ---
 
 ## 1、下载
-Oracle-JDK官网下载地址：[https://www.oracle.com/cn/java/technologies/downloads/](https://www.oracle.com/cn/java/technologies/downloads/)  
+JDK有OracleJDK和OpenJDK，一般看公司用的哪个版本，下载对应的即可  
+OracleJDK官网下载地址：[https://www.oracle.com/cn/java/technologies/downloads/](https://www.oracle.com/cn/java/technologies/downloads/)  
 下载链接默认最新版,其他版本选择Java archive,注意首先需要注册账号，然后登录下载  
 OpenJDK官网：[https://openjdk.org/](https://openjdk.org/)  
-OpenJDK下载：[https://jdk.java.net/java-se-ri/17-MR1](https://jdk.java.net/java-se-ri/17-MR1)  
-下载和自己电脑配置相符的jdk版本
+OpenJDK下载：[https://jdk.java.net/java-se-ri/17-MR1](https://jdk.java.net/java-se-ri/17-MR1)
 
 ## 2、window 安装 jdk
 下载下来点击安装，安装路径最好别放到c盘下，并且不要包含中文和空格，防止有些编程工具不识别
