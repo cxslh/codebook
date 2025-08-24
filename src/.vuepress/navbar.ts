@@ -3,21 +3,28 @@ import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
     "/",{
-        text: "编程导航",
-        icon: "link",
-        link: "/nav/",
+        text: "更新日志",
+        link: "/log/2025.md",
     },{
-        text: "java基础",
-        link: "/javabase/README.md",
-    },{
-        text: "java进阶",
-        link: "/javaoop/README.md",
-    },{
-        text: "javaweb",
-        link: "/javaweb/README.md",
+        text: "java",
+        prefix: "/java/",
+        children: [
+            {
+                text: "java基础",
+                link: "/java/javabase/installjdk.md",
+            },
+            {
+                text: "工具类",
+                link: "/java/utils/str.md",
+            },
+            {
+                text: "开发场景",
+                link: "/java/devnotes/codetime.md",
+            },
+        ],
     },{
         text: "框架",
-        prefix: "javaframework/",
+        prefix: "/javaframework/",
         children: [
             {
                 text: "spring",
@@ -48,7 +55,7 @@ export default navbar([
     },
     {
         text: "数据库",
-        link: "/db/",
+        prefix: "/db/",
         children: [
             {
                 text: "Mysql",
@@ -61,7 +68,7 @@ export default navbar([
         ]
     },{
         text: "工具",
-        link: "/codetool/",
+        link: "/codetool/README.md"
     },
     {
         text: "编程之外",
