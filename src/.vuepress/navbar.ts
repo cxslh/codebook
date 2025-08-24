@@ -63,12 +63,12 @@ export default navbar([
             },
             {
                 text: "Redis",
-                link: "/db/redis/",
+                link: "/db/redis/info.md",
             }
         ]
     },{
         text: "工具",
-        link: "/codetool/README.md"
+        link: "/codetool/eclipse/Eclipse.md"
     },
     {
         text: "编程之外",
