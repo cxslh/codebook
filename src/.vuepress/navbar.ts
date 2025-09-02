@@ -18,7 +18,7 @@ export default navbar([
                 link: "/java/utils/str.md",
             },
             {
-                text: "开发场景",
+                text: "开发",
                 link: "/java/devnotes/codetime.md",
             },
         ],
